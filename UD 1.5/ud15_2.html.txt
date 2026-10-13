@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Horario semanal</title>
+</head>
+<body>
+    <table style="border: 2px solid rgb(238, 87, 150); border-collapse: collapse;">
+        <caption>Horario semanal</caption>
+        <tr>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">Horario</th>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">Lunes</th>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">Martes</th>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">Miércoles</th>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">Jueves</th>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">Viernes</th>
+        </tr>
+        <tr>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">15:00 - 15:55</th>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Implatación de sistemas operativos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Implantación de sistemas operativos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Implantación de sistemas operativos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Implantación de sistemas operativos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Gestión de base de datos</td>
+        </tr>
+        <tr>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">15:55 - 16:50</th>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Implantación de sistemas operativos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Planificación y administración de redes</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Implantación de sistemas operativos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Inglés profesional GS</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Planificación y administración de redes</td>
+        </tr>
+        <tr>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">16:50 - 17:45</th>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Implantación de sistemas operativos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Planificación y administración de redes</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Lenguaje de marcas</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Gestión de base de datos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Planificación y administración de redes</td>
+        </tr>
+        <tr>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">18:05 - 19:00</th>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Gestión de base de datos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Gestión de base de datos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Planificación y administración de redes</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Gestión de base de datos</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Fundamentos de hardware</td>
+        </tr>
+        <tr>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">19:00 - 19:55</th>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Fundamentos de hardware</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Inglés profesional GS</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Planificación y administración de redes</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">IPE</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Proyecto intermodular</td>
+        </tr>
+        <tr>
+            <th style="border: 2px solid rgb(238, 87, 150); background-color: rgb(255, 164, 225); text-align: center;">19:50 - 20:50</th>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Fundamentos de hardware</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Lenguaje de marcas</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">IPE</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">Lenguaje de marcas</td>
+            <td style="border: 2px solid rgb(238, 87, 150); text-align: center;">IPE</td>
+    </table>
+
+</body>
+</html>
