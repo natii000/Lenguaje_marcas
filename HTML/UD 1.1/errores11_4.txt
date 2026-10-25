@@ -1,0 +1,8 @@
+1. DOCTYPE: estaba escrito <!DOCTYPE htm> en vez de <!DOCTYPE html>.
+2. Etiqueta html: faltaba el  lang="es" correctamente escrito, ya que aparecía lan=es.
+3. Etiqueta title: faltaba el cierre </title>.
+4. Etiqueta h1: el título Contacto tenía <h1> al final en lugar de </h1>.
+5. Etiquetas b y p: estaban cerradas en el orden incorrecto. </b> debe aparecer antes de </p>.
+6. Segundo párrafo: faltaba la etiqueta de cierre </p> después del horario.
+7. Lista: faltaba cerrar cada elemento <li> con </li>.
+8. Codificación: faltaba la etiqueta <meta charset="UTF-8"> en el inicio del cuerpo del documento.

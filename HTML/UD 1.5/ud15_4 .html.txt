@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventario de productos</title>
+    <style>
+        table {
+            border-spacing: 8px;
+            background-color: lightgray;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: white;
+        }
+
+        thead {
+            background-color: lightblue;
+        }
+
+        thead th {
+            background-color: lightblue;
+        }
+
+        tbody tr:nth-child(even) td {
+            background-color: lightyellow;
+        }
+
+        tfoot td {
+            background-color: lightgreen;
+            font-weight: bold;
+        }
+
+        .vertical {
+            vertical-align: middle;
+        }
+
+        /* empty-cells: hide oculta los bordes y el fondo de las celdas vacías.
+           Si se cambia a show, la celda vacía conserva su espacio y se ve su borde. */
+        table {
+            empty-cells: hide;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio unidad</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Teclado</td>
+                <td>4</td>
+                <td>15 €</td>
+                <td>60 €</td>
+            </tr>
+            <tr>
+                <td>Ratón</td>
+                <td>5</td>
+                <td>10 €</td>
+                <td>50 €</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="vertical">Monitor</td>
+                <td>2</td>
+                <td>120 €</td>
+                <td>240 €</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>120 €</td>
+                <td>120 €</td>
+            </tr>
+            <tr>
+                <td>Alfombrilla</td>
+                <td>6</td>
+                <td>5 €</td>
+                <td></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total general</td>
+                <td>470 €</td>
+            </tr>
+        </tfoot>
+
+        <caption style="caption-side: bottom;">
+            Inventario de productos
+        </caption>
+    </table>
+
+</body>
+</html>

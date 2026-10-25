@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ficha técnica de Python</title>
+</head>
+<body>
+    <h1>Ficha técnica: Python</h1>
+
+    <h2>Información general</h2>
+    <p><dfn>Python</dfn> es un lenguaje de programación que se utiliza para crear programas, aplicaciones y páginas web. También permite automatizar tareas que hacemos habitualmente con el ordenador, por lo que puede ahorrar bastante tiempo. Es uno de los lenguajes más conocidos porque resulta relativamente fácil de aprender, incluso si estás empezando a programar.</p>
+
+    <p>Fue creado por Guido van Rossum y su primera versión pública apareció en 1991. Desde entonces ha ido evolucionando y se utiliza tanto en proyectos pequeños como en programas más complejos. Además, es compatible con distintos sistemas operativos, como Windows, Linux y macOS.</p>
+
+    <h2>Características</h2>
+    <p>Una de las principales características de Python es que su código es bastante fácil de leer, ya que utiliza una sintaxis clara y no necesita tantos símbolos como otros lenguajes. Esto ayuda a entender mejor lo que hace cada parte del programa y facilita encontrar errores cuando algo no funciona.</p>
+
+    <p>Otra ventaja es que es un lenguaje gratuito y de código abierto, por lo que cualquier persona puede utilizarlo y consultar su código. También dispone de muchas bibliotecas que añaden funciones y herramientas sin tener que programarlo todo desde cero.</p>
+
+    <p>Python se utiliza en diferentes campos, como el desarrollo de páginas web, la inteligencia artificial, el análisis de datos y la automatización de tareas. En informática también puede servir para crear pequeños scripts que permitan organizar archivos, comprobar información del sistema o realizar tareas repetitivas.</p>
+
+    <p>Un <abbr title="Integrated Development Environment">IDE</abbr> es un entorno de desarrollo integrado que reúne herramientas para escribir, ejecutar y corregir código. Para programar en Python se pueden utilizar editores como Visual Studio Code o entornos de desarrollo como PyCharm.</p>
+
+    <h2>Ejemplo de código</h2>
+    <p>Este es un ejemplo sencillo de un programa escrito en Python. Al ejecutarlo, aparece un mensaje en la pantalla:</p>
+
+    <pre><code>print("Hola, mundo")
+print("Estoy aprendiendo Python")</code></pre>
+
+    <p>La función <code>print()</code> sirve para mostrar información por pantalla. En este caso, el programa muestra dos frases diferentes. Es una de las primeras instrucciones que se suelen aprender al empezar a programar.</p>
+
+    <p>Para guardar un archivo mientras trabajamos en el editor se puede utilizar la combinación de teclas <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+
+    <h2>Fecha relevante</h2>
+    <p>La primera versión pública de Python se publicó el <time datetime="1991-02-20">20 de febrero de 1991</time>. Desde su aparición, el lenguaje ha recibido numerosas actualizaciones que han incorporado mejoras y nuevas funciones.</p>
+
+    <h2>Versiones y ejemplos</h2>
+    <p>Actualmente, Python cuenta con diferentes versiones. Python 3 es la rama moderna del lenguaje y es la que se utiliza habitualmente para aprender y desarrollar proyectos nuevos.</p>
+
+    <p>También existen otras etiquetas HTML que permiten representar elementos de forma específica, como el superíndice y el subíndice. Por ejemplo, podemos escribir una potencia como x<sup>2</sup> o una fórmula química como H<sub>2</sub>O.</p>
+
+    <h2>Contacto del autor</h2>
+    <address>
+        Autor: Natalia López<br>
+        Correo: natari.sser15@gmail.com
+    </address>
+</body>
+</html>
