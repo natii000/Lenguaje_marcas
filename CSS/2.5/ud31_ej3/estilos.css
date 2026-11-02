@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    line-height: 1.5;
+}
+
+.tarjeta {
+    position: relative;
+    width: 300px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.foto {
+    height: 150px;
+    background-color: #9fc5e8;
+    border-radius: 5px;
+}
+
+.etiqueta {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.precio {
+    color: green;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Caja de comentarios */
+.comentarios {
+    width: 300px;
+    height: 120px;
+    border: 2px solid #333;
+    padding: 10px;
+    overflow: auto;
+}
+
+/* Tarjetas de prueba */
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.oculta {
+    visibility: hidden;
+}
+
+.eliminada {
+    display: none;
+}
+
+/* Para probar los distintos valores de overflow:
+   visible, hidden, scroll y auto */

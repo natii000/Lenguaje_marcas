@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    position:relative;
+    width: 300px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.cuadro {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+}
+
+.c1 {
+    position: relative;
+    left: 50px;
+    background-color: red;
+    z-index: 2;
+}
+
+.c2 {
+    position: relative;
+    top: -40px;
+    left: 50px;
+    background-color: blue;
+    z-index: 1;
+}
+
+.c3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+}

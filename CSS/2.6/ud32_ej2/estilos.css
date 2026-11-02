@@ -1,0 +1,73 @@
+body {
+    background-color: darksalmon;
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: darksalmon;
+}
+
+td {
+    border: 2px solid white;
+    padding: 5px 10px;
+}
+
+.identificador {
+    text-align: center;
+}
+
+.email {
+    width: 60%;
+}
+
+.botones {
+    text-align: center;
+}
+
+textarea {
+    vertical-align: middle;
+}
+
+.destacado {
+    font-weight: bold;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: gray;
+}
+
+/* Campos obligatorios */
+input:required {
+    border-left: 4px solid red;
+}
+
+/* Campo seleccionado */
+input:focus {
+    background-color: lightblue;
+}
+
+/* Campo desactivado */
+input:disabled {
+    background-color: lightgray;
+    opacity: 0.5;
+}
+
+/* Opciones seleccionadas */
+input:checked + label {
+    font-weight: bold;
+    color: green;
+}
+
+/* Campo con hover y focus */
+input:hover:focus {
+    background-color: lightgreen;
+}

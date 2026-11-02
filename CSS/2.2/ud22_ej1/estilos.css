@@ -1,0 +1,21 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0;
+    color: #333333;
+}
+
+/* Lista desordenada de ingredientes */
+.ingredientes {
+    list-style-type: square;
+}
+
+/* Lista ordenada de pasos */
+.pasos {
+    list-style-type: upper-roman;
+}
+
+/* Lista anidada de utensilios */
+.utensilios {
+    list-style-type: circle;
+}

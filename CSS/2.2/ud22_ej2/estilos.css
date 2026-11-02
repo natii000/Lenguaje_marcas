@@ -1,0 +1,20 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color: #34495e;
+}
+
+/* Inside coloca las líneas debajo de la viñeta; outside las alinea con el texto. He elegido outside porque resulta más legible. */
+.tareas {
+    list-style: url("img/icono.jpg") outside;
+    padding-left: 30px;
+}
+
+.tareas li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}

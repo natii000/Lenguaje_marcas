@@ -1,0 +1,28 @@
+/* Fuente de toda la página */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Título principal */
+h1 {
+    color: darkred;
+    text-align: center;
+    background-color: #f5e6d3;
+}
+
+/* Subtítulos */
+h2 {
+    color: darkgreen;
+}
+
+/* Párrafos */
+p {
+    text-align: justify;
+    color: #555555;
+    font-size: 18px;
+}
+
+/* Lista de ingredientes */
+ul {
+    font-size: 18px;
+}

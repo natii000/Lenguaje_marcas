@@ -1,0 +1,26 @@
+/* Solo el em que está dentro del h1 del artículo */
+.articulo h1 em {
+    color: orange;
+}
+
+/* Fondo gris para los párrafos dentro de un li */
+li p {
+    background-color: lightgray;
+}
+
+/* Borde izquierdo para los párrafos de comentarios */
+.comentarios p {
+    border-left: 3px solid blue;
+    padding-left: 10px;
+}
+
+/* Solo afecta a los p que tienen la clase especial */
+p.especial {
+    color: red;
+    font-weight: bold;
+}
+
+/* Afecta a cualquier elemento que tenga la clase especial */
+.especial {
+    background-color: lightyellow;
+}

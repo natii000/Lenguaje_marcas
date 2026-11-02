@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de alta de usuario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Formulario de alta de usuario</h1>
+
+    <form action="#" method="POST">
+        <table>
+            <tr>
+                <td colspan="2" class="identificador">
+                    <label for="usuario" class="destacado">Identificador de nuevo usuario</label>
+                    <input type="text" id="usuario" name="usuario"
+                           placeholder="usu_012345"
+                           title="Identificador asignado al usuario" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="nombre" class="destacado">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </td>
+                <td>
+                    <label for="apellidos" class="destacado">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="contrasena" class="destacado">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" required>
+                </td>
+                <td>
+                    <label for="confirmar" class="destacado">Confirmar contraseña:</label>
+                    <input type="password" id="confirmar" name="confirmar">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="email" class="destacado">Email:</label>
+                    <input type="email" id="email" name="email" class="email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label class="destacado">Sexo:</label></td>
+                <td>
+                    <input type="radio" id="hombre" name="sexo" value="Hombre">
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" id="mujer" name="sexo" value="Mujer" checked>
+                    <label for="mujer">Mujer</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label class="destacado">Aficiones:</label></td>
+                <td>
+                    <input type="checkbox" id="deporte" name="aficiones" value="Deporte">
+                    <label for="deporte">Deportes</label><br>
+
+                    <input type="checkbox" id="lectura" name="aficiones" value="Lectura" checked>
+                    <label for="lectura">Lectura</label><br>
+
+                    <input type="checkbox" id="cine" name="aficiones" value="Cine">
+                    <label for="cine">Cine</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="pais" class="destacado">País:</label></td>
+                <td>
+                    <select id="pais" name="pais">
+                        <option value="España" selected>España</option>
+                        <option value="Francia">Francia</option>
+                        <option value="Portugal">Portugal</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="foto" class="destacado">Subir su foto:</label></td>
+                <td>
+                    <input type="file" id="foto" name="foto" accept="image/*">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="comentarios" class="destacado">Comentarios personales:</label></td>
+                <td>
+                    <textarea id="comentarios" name="comentarios"
+                              cols="40" rows="5"
+                              placeholder="Escriba aquí sus comentarios"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="codigo" class="destacado">Código promocional:</label>
+                </td>
+                <td>
+                    <input type="text" id="codigo" name="codigo" disabled>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="botones">
+                    <input type="reset" value="Resetear">
+                </td>
+                <td class="botones">
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
