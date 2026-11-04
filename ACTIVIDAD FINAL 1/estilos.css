@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.contenedor {
+    width: 75%;
+    margin: 30px auto;
+}
+
+/* CABECERA */
+
+header {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    color: #710000;
+    font-size: 28px;
+    margin: 0;
+}
+
+.titulo h2 {
+    color: #00521b;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* MENU */
+
+nav {
+    background-color: #eee;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+nav a:hover {
+    color: red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+/* REDES SOCIALES */
+
+.redes {
+    width: 100%;
+    font-size: 0;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3333%;
+    height: 170px;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid white;
+    margin-top: 3px;
+
+}
+
+article:nth-child(1) {
+    background-color: rgba(162, 179, 188, 0.5);
+}
+
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5);
+}
+
+article:nth-child(3) {
+    background-color: rgba(208, 61, 107, 0.5);
+}
+
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5);
+}
+
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5);
+}
+
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5);
+}
+
+article img {
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin: 0 8px 4px 0;
+    transition: transform 0.3s;
+}
+
+article img:hover {
+    transform: scale(1.2);
+}
+
+article h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px 0 8px 50px;
+}
+
+article p {
+    font-size: 12px;
+    margin: 8px 0 8px 50px;
+    line-height: 1.4;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #eee;
+    margin-top: 5px;
+}
+
+.iconos {
+    padding: 8px;
+}
+
+.iconos img {
+    width: 26px;
+    height: 26px;
+    transition: transform 0.3s;
+}
+
+.iconos img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    background-color: #eee;
+    color: #777;
+    font-size: 11px;
+    margin: 5px 0 0;
+    padding: 6px;
+}
