@@ -1,3 +1,19 @@
+left: 0 → right: 0: pega el menú al lado derecho.
+
+
+
+margin-left: 220px → margin-right: 220px: deja espacio para el menú.
+
+right: 0 → pegado a la derecha.
+
+
+
+bottom: 0 → pegado abajo.
+
+
+
+width: 100% → ocupa todo el ancho.
+
 # Repaso de HTML y CSS
 
 Apuntes de repaso de los conceptos principales de HTML y CSS.
